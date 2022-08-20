@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="css/style.css" rel="stylesheet">
+	 <link href="js/jquery.min.js" rel="">
+	 <link href="js/javascript.js" rel="">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pet</title>
+  </head>
+  <body>
+  
+  <!-- Header section start >  --->
+  
+    <header class="headersection section">
+	<div class="container">
+	<div class="logo"> <a href="#"><img src="img/logo.png"> </a></div>
+	<ul class="navbarmenu">
+	<li> <a href="#home"> Home </a></li>
+	<li> <a href="#about"> About </a></li>
+	<li> <a href="#groomers"> Groomers </a></li>
+	<li> <a href="#service"> Service </a></li>
+	<li> <a href="#pricing"> Pricing </a></li>
+	<li> <a href="#contact"> Contact </a></li>
+	<li class="searchicon"> <a href="#" onclick="myFunction()"> <img src="img/search.png"> </a>
+	<div class="myDIV" id="myDIV" style="display:none;">
+	<form>
+	<input type="text" name="" placeholder="Search">
+	<button type="button">Search</button>
+	</form>
+	</div>
+	</li>
+	</ul>
+	</div>
+	</header>
+	
+	  <!-- Header section end   --->
+	  
+	    <!-- banner section start >  --->
+  
+    <div class="bannersec section text-center" id="home">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+	<h1>The Kind of Care<br> Your Pets Deserve</h1>
+	<a href="#contact" class="btn bluebg"> Make An appoinment</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	  <!-- Best Agency section start   --->
+	  <div class="aboutsec section " id="about" style="padding: 30px 0px;">
+		<div class="w-100">
+		<div class="row">
+		<div class="col-md-6">
+		<img src="img/b1.png" class="w-100">
+		</div>
+		<div class="col-md-6">
+		<div class="welcomebg orangebg text-center">
+		<p>Welcome to HeavenPet</p>
+		<h2>We Are Best Agency<br> For Your Pets</h2>
+		</div>
+		<div class="welcomelist">
+		<p class=""><img src="img/bgcircle.png" class="bgcircle"> Qualified Groomer</p>
+		<p class=""><img src="img/bgcircle.png" class="bgcircle">Over 20 Years of Experienced</p>
+		<p class=""><img src="img/bgcircle.png" class="bgcircle">Animal Lover</p>
+		<p class=""><img src="img/bgcircle.png" class="bgcircle">Best Pet care</p>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		
+			    <!-- Best Service section start >  --->
+  
+    <div class="bestservice section text-center orangebg" id="service" style="padding: 30px 0px 10px;">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+	<h2>We Provide Best Services</h2>
+	<p>Working on Consuction humanitaran aid agencies, we have supported programmes to help alleviate human suffering through animal walfare when people might depend.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="whychoose section text-center">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-4">
+	<div class="whychoosebox">
+	<img src="img/b2.png" class="w-100">
+	<h3>Pet surgries</h3>
+	<p>Our Free vaterny services are available to pets whoes owners are on certain means-tested benefits.</p>
+	</div>
+	</div>
+	<div class="col-md-4">
+	<div class="whychoosebox">
+	<img src="img/b3.png" class="w-100">
+	<h3>Pet Adoption</h3>
+	<p>Our Free vaterny services are available to pets whoes owners are on certain means-tested benefits.</p>
+	</div>
+	</div>
+	<div class="col-md-4">
+	<div class="whychoosebox">
+	<img src="img/b4.png" class="w-100">
+	<h3>Pet Care</h3>
+	<p>Our Free vaterny services are available to pets whoes owners are on certain means-tested benefits.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+				    <!-- Make An Apoinment section start >  --->
+  
+    <div class="bestservice section text-center orangebg" id="" style="padding: 30px 0px 10px;">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+	<h2>Make An Apoinment</h2>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="aboutsec section " id="contact" style="padding: 30px 0px;">
+		<div class="w-100">
+		<div class="row">
+		<div class="col-md-6">
+		<img src="img/b5.png" class="w-100">
+		</div>
+		<div class="col-md-6">
+		<div class="apoinmentform">
+		<form>
+		<input type="text" name="" placeholder="First Name">
+		<input type="text" name="" placeholder="Last Name">
+		<input type="text" name="" placeholder="Phone">
+		<input type="text" name="" placeholder="Date">
+		<input type="text" name="" placeholder="Time">
+		<select>
+		<option>Select Your service</option>
+		<option>Pet Adoption </option>
+		<option>Pet Vacation</option>
+		<option>Pet Grooming</option>
+		<option>Dog Training</option>
+		<option>Pet daycare</option>
+		<option>Pet sitter</option>
+		<option>Veterinary help</option>
+		</select>
+		<input type="text" name="" placeholder="Type Your Message">
+		<button type="submit" class="btn">Submit</button>
+		</form>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		
+						    <!-- Groomers section start >  --->
+							
+		<div class="bestservice section text-center orangebg" id="groomers" style="padding: 30px 0px 10px;">
+			<div class="container">
+			<div class="row">
+			<div class="col-md-12">
+			<p style="font-size: 30px; margin-bottom: 0px;">GROOMERS</p>
+			<h2>OUR GROOMERS</h2>
+			
+			</div>
+			</div>
+			</div>
+		</div>
+		
+	<div class="ourgroomer section text-center">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-3">
+	<div class="whychoosebox">
+	<img src="img/t1.png" class="">
+	<h2>Lloyd Wilson</h2>
+	<p>CEO FOUNDER</p>
+	<ul class="social">
+		<li> <a href="#"><img src="img/facebook.png"></a> </li>
+		<li> <a href="#"><img src="img/twitter.png"></a> </li>
+		<li> <a href="#"><img src="img/insta.png"></a> </li>
+		</ul>
+	</div>
+	</div>
+	<div class="col-md-3">
+	<div class="whychoosebox">
+	<img src="img/t2.png">
+	<h2>Lloyd Wilson</h2>
+	<p>TRAINER</p>
+	<ul class="social">
+		<li> <a href="#"><img src="img/facebook.png"></a> </li>
+		<li> <a href="#"><img src="img/twitter.png"></a> </li>
+		<li> <a href="#"><img src="img/insta.png"></a> </li>
+		</ul>
+	</div>
+	</div>
+	<div class="col-md-3">
+	<div class="whychoosebox">
+	<img src="img/t1.png">
+	<h2>Lloyd Wilson</h2>
+	<p>GROOMER</p>
+	<ul class="social">
+		<li> <a href="#"><img src="img/facebook.png"></a> </li>
+		<li> <a href="#"><img src="img/twitter.png"></a> </li>
+		<li> <a href="#"><img src="img/insta.png"></a> </li>
+		</ul>
+	</div>
+	</div>
+	<div class="col-md-3">
+	<div class="whychoosebox">
+	<img src="img/t1.png">
+	<h2>Lloyd Wilson</h2>
+	<p>GROOMER</p>
+	<ul class="social">
+		<li> <a href="#"><img src="img/facebook.png"></a> </li>
+		<li> <a href="#"><img src="img/twitter.png"></a> </li>
+		<li> <a href="#"><img src="img/insta.png"></a> </li>
+		</ul>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+							    <!-- Pricing section start >  --->
+								
+	<div class="bestservice section text-center" id="pricing" style="padding: 30px 0px 10px;">
+			<div class="container">
+			<div class="row">
+			<div class="col-md-12">
+			<p style="font-size: 30px; margin-bottom: 0px;">PRICING</p>
+			<h2>Affordable Packages</h2>
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-md-3">
+			<div class="pricing">
+				<img src="img/p1.png" class="w-100">
+				<div class="pricingbox">
+				<p style="color:#f5ae3c;">BASIC</p>
+				<h2 class="basicwalk"><small class="topside">₹</small>3000<small>/mos</small></h2>
+				<div class="orangebg dogwalk">
+				<i class="fa fa-check" aria-hidden="true"></i> Dog Walk
+				</div>
+				<p>Pet Visit</p>
+				<div class="orangebg dogwalk">
+				 Pet Spa
+				</div>
+				<p>Pet Visit</p>
+				<button type="submit" class="btn">Get started</button>
+			</div>
+			</div>
+			</div>
+			<div class="col-md-3">
+			<div class="pricing">
+				<img src="img/p2.png" class="w-100">
+				<div class="pricingbox">
+				<p style="color:#f5ae3c;">PERSONAL</p>
+				<h2 class="basicwalk"><small class="topside">₹</small>6500<small>/mos</small></h2>
+				<div class="orangebg dogwalk">
+				<i class="fa fa-check" aria-hidden="true"></i> Dog Walk
+				</div>
+				<p class="dogwalk"><i class="fa fa-check" aria-hidden="true"></i> Pet Visit</p>
+				<div class="orangebg dogwalk">
+				 Pet Spa
+				</div>
+				<p>Pet Visit</p>
+				<button type="submit" class="btn">Get started</button>
+			</div>
+			</div>
+			</div>
+			<div class="col-md-3">
+			<div class="pricing">
+				<img src="img/p3.png" class="w-100">
+				<div class="pricingbox">
+				<p style="color:#f5ae3c;">BUSINESS</p>
+				<h2 class="basicwalk"><small class="topside">₹</small>9000<small>/mos</small></h2>
+				<div class="orangebg dogwalk">
+				<i class="fa fa-check" aria-hidden="true"></i> Dog Walk
+				</div>
+				<p class="dogwalk"><i class="fa fa-check" aria-hidden="true"></i> Pet Visit</p>
+				<div class="orangebg dogwalk">
+				<i class="fa fa-check" aria-hidden="true"></i> Pet Spa
+				</div>
+				<p>Pet Visit</p>
+				<button type="submit" class="btn">Get started</button>
+			</div>
+			</div>
+			</div>
+			<div class="col-md-3">
+			<div class="pricing">
+				<img src="img/p4.png" class="w-100">
+				<div class="pricingbox">
+				<p style="color:#f5ae3c;">EXCLUSIVE</p>
+				<h2 class="basicwalk"><small class="topside">₹</small>9500<small>/mos</small></h2>
+				<div class="orangebg dogwalk">
+				<i class="fa fa-check" aria-hidden="true"></i> Dog Walk
+				</div>
+				<p class="dogwalk"><i class="fa fa-check" aria-hidden="true"></i> Pet Visit</p>
+				<div class="orangebg dogwalk">
+				<i class="fa fa-check" aria-hidden="true"></i> Pet Spa
+				</div>
+				<p class="dogwalk"><i class="fa fa-check" aria-hidden="true"></i> Pet Visit</p>
+				<button type="submit" class="btn">Get started</button>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+		</div>
+		
+		<div class="bestservice section text-center orangebg" id="" style="padding: 30px 0px 10px;">
+			<div class="container">
+			<div class="row">
+			<div class="col-md-12">
+			<p style="font-size: 30px; margin-bottom: 0px;">TESTIMONIALS</p>
+			<h2>Happy Customer Says</h2>
+			<!-- TESTIMONIALS -->
+	<div class="testimonialmain">
+	<div class="slideshow-container">
+<div class="mySlides">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="testimonialbox">
+				<div class="mediaobject">
+				<div class="text-center">
+				<img src="img/tesimg.png">
+				<h2 style="font-size: 26px;color: #f5ae3c;">Abdul Ali</h2>
+				<p>Customer</p>
+				</div>
+				<div class="mediabox">
+				<p>The best service i have got from this company, their services is Amazing, I received for everone</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="testimonialbox">
+				<div class="mediaobject">
+				<div class="text-center">
+				<img src="img/tesimg.png">
+				<h2 style="font-size: 26px;color: #f5ae3c;">Abdul Ali</h2>
+				<p>Customer</p>
+				</div>
+				<div class="mediabox">
+				<p>The best service i have got from this company, their services is Amazing, I received for everone</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="testimonialbox">
+				<div class="mediaobject">
+				<div class="text-center">
+				<img src="img/tesimg.png">
+				<h2 style="font-size: 26px;color: #f5ae3c;">Abdul Ali</h2>
+				<p>Customer</p>
+				</div>
+				<div class="mediabox">
+				<p>The best service i have got from this company, their services is Amazing, I received for everone</p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="mySlides">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="testimonialbox">
+				<div class="mediaobject">
+				<div class="text-center">
+				<img src="img/tesimg.png">
+				<h2 style="font-size: 26px;color: #f5ae3c;">Abdul Ali</h2>
+				<p>Customer</p>
+				</div>
+				<div class="mediabox">
+				<p>X company have been providing insurance of life and business in India for over 30 years</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="testimonialbox">
+				<div class="mediaobject">
+				<div class="text-center">
+				<img src="img/tesimg.png">
+				<h2 style="font-size: 26px;color: #f5ae3c;">Abdul Ali</h2>
+				<p>Customer</p>
+				</div>
+				<div class="mediabox">
+				<p>X company have been providing insurance of life and business in India for over 30 years</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="testimonialbox">
+				<div class="mediaobject">
+				<div class="text-center">
+				<img src="img/tesimg.png">
+				<h2 style="font-size: 26px;color: #f5ae3c;">Abdul Ali</h2>
+				<p>Customer</p>
+				</div>
+				<div class="mediabox">
+				<p>X company have been providing insurance of life and business in India for over 30 years</p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mySlides">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="testimonialbox">
+				<div class="mediaobject">
+				<div class="text-center">
+				<img src="img/tesimg.png">
+				<h2 style="font-size: 26px;color: #f5ae3c;">Abdul Ali</h2>
+				<p>Customer</p>
+				</div>
+				<div class="mediabox">
+				<p>X company have been providing insurance of life and business in India for over 30 years</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="testimonialbox">
+				<div class="mediaobject">
+				<div class="text-center">
+				<img src="img/tesimg.png">
+				<h2 style="font-size: 26px;color: #f5ae3c;">Abdul Ali</h2>
+				<p>Customer</p>
+				</div>
+				<div class="mediabox">
+				<p>X company have been providing insurance of life and business in India for over 30 years</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="testimonialbox">
+				<div class="mediaobject">
+				<div class="text-center">
+				<img src="img/tesimg.png">
+				<h2 style="font-size: 26px;color: #f5ae3c;">Abdul Ali</h2>
+				<p>Customer</p>
+				</div>
+				<div class="mediabox">
+				<p>X company have been providing insurance of life and business in India for over 30 years</p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="text-center navigationicon">
+ <a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+	</div>
+<!-- END OF TESTIMONIALS -->
+			</div>
+			</div>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		
+		<div class="footer bluebg section" id="contact">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-4">
+	<img src="img/logo.png" class="footerlogo">
+	<p>you can contract our company group for more details about your pets we provide best service in the world</p>
+		<ul class="social">
+		<li> <a href="#"><img src="img/f1.png"></a> </li>
+		<li> <a href="#"><img src="img/tt1.png"></a> </li>
+		<li> <a href="#"><img src="img/insta1.png"></a> </li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+	<h5>Service </h5>
+	<p><a href="#contact">Pet Adoption</a></p>
+	<p><a href="#contact">Pet Vacation</a></p>
+	<p><a href="#contact">Pet Grooming</a></p>
+	<p><a href="#contact">Dog Training</a></p>
+	<p><a href="#contact">Pet daycare</a></p>
+	<p><a href="#contact">Pet sitter</a></p>
+	<p><a href="#contact">Veterinary help</a></p>
+	</div>
+	<div class="col-md-2">
+	<h5> Link</h5>
+	<p><a href="#">Home</a></p>
+	<p><a href="#">About </a></p>
+	<p><a href="#">Services </a></p>
+	<p><a href="#">Groomer </a></p>
+	<p><a href="#">Pricing </a></p>
+	<p><a href="#">Contact </a></p>
+	</div>
+	<div class="col-md-3">
+	<h5 style="margin-top: 50px;"> HAVE A QUESTIONS?</h5>
+	<p>Hydrabad, india +918297828801<br>info@yourdomain.com</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<!--- search script  ---->
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+	<!--- Testimonial script  ---->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  </body>
+</html>
